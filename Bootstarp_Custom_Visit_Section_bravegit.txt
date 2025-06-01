@@ -1,0 +1,155 @@
+<!--Visit Section-->
+    <div class="tips-container">
+        <h2 class="tips-title">Most Useful Tips</h2>
+
+        <div class="tips-content">
+            <div class="tips-intro">
+                <h2 class="tips-heading">Top Fitness YouTube Channels to Transform Your Body</h2>
+                <p class="tips-description">
+                    Follow these amazing fitness creators to build strength, lose fat, and stay motivated. Each channel
+                    offers expert routines, nutrition tips, and real-life results.
+                </p>
+                <a href="#" class="tips-explore-btn">Explore More</a>
+            </div>
+
+            <div class="tips-grid">
+
+                <div class="tips-card">
+                    <button class="visit-btn">Visit</button>
+                    <h4 class="channel-title">Athlean-X</h4>
+                    <p class="channel-desc">Science-based training, posture correction, and injury prevention from a pro
+                        physiotherapist.</p>
+                </div>
+
+                <div class="tips-card">
+                    <button class="visit-btn">Visit</button>
+                    <h4 class="channel-title">Jeff Nippard</h4>
+                    <p class="channel-desc">Evidence-backed workouts, muscle-building science, and nutrition explained
+                        simply.</p>
+                </div>
+
+                <div class="tips-card">
+                    <button class="visit-btn">Visit</button>
+                    <h4 class="channel-title">Greg Doucette</h4>
+                    <p class="channel-desc">Realistic advice on diet, fat loss, and staying natural, with honest reviews
+                        and rants.</p>
+                </div>
+
+                <div class="tips-card">
+                    <button class="visit-btn">Visit</button>
+                    <h4 class="channel-title">Chloe Ting</h4>
+                    <p class="channel-desc">Popular home workouts for abs, HIIT, and full-body training – ideal for
+                        beginners.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Visit Section End-->
+
+
+
+
+
+
+    <!--CSS-->
+    
+.tips-container {
+  padding: 60px 30px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: "Baloo 2", cursive;
+}
+
+.tips-title {
+  font-size: 48px;
+  text-align: center;
+  color: #00cc6a;
+  margin-bottom: 40px;
+}
+
+.tips-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.tips-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tips-heading {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.tips-description {
+  font-size: 18px;
+  color: #bbbbbb;
+}
+
+.tips-explore-btn {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #00cc6a;
+  color: #1e1e1e;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.tips-explore-btn:hover {
+  background-color: #ffffff;
+}
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.tips-card {
+  background-color: #2a2a2a;
+  border: 2px solid #00cc6a;
+  border-radius: 20px;
+  padding: 25px;
+  position: relative;
+  text-align: center;
+}
+
+.visit-btn {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  background-color: #00cc6a;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  color: #1e1e1e;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.visit-btn:hover {
+  background-color: #ffffff;
+}
+
+.channel-title {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.channel-desc {
+  font-size: 16px;
+  color: #cccccc;
+  margin-top: 10px;
+}
+<!--CSS-->
